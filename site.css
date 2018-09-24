@@ -1,27 +1,27 @@
 body {
 	color: #5a5a5a;
+	display: block;
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif, normal;
 	font-size: 21px;
 	line-height: 23px;
-	display: block;
-	width: 80%;
 	margin: auto;
+	width: 80%;
 }
 
 h1 {
 	color: #000000;
 	font-size: 62px;
 	line-height: 62px;
-	text-align: center;
 	margin: 30px;
+	text-align: center;
 }
 
 h2 {
 	color: #000000;
 	font-size: 40px;
-	line-height: 40px;
-	margin: 0px;
 	font-style: italic;
+	line-height: 40px;
+	margin: 0;
 	text-align: center;
 }
 
@@ -32,20 +32,21 @@ img {
 }
 
 a {
-	text-decoration: none;
 	color: #991111;
+	text-decoration: none;
 }
 
 .button {
-	cursor: pointer;
 	background-color: #991111;
 	border: 2px solid #991111;
-	padding: 16px 32px;
 	border-radius: 8px;
-	font-size: 21px;
 	color: #ffffff;
-	-webkit-transition-duration: 0.4s;
+	cursor: pointer;
+	font-size: 21px;
+	line-height: 50px;
+	padding: 16px 32px;
 	transition-duration: 0.4s;
+	-webkit-transition-duration: 0.4s;
 }
 
 .button:hover {
